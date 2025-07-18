@@ -18,7 +18,7 @@ jobs:
       - name: Build LimboQueue
         run: ./gradlew build
       - name: Upload LimboQueue
-        uses: actions/upload-artifact@v3.0.0
+        uses: actions/upload-artifact@v4.0.0
         with:
           name: LimboQueue
           path: "build/libs/limboqueue*.jar"
